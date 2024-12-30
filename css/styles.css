@@ -77,3 +77,21 @@ button:hover {
 .error-step {
     background-color: #ffe6e6;
 }
+
+.nav-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.nav-btn {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #2196F3;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.nav-btn:hover {
+    background-color: #1976D2;
+}
