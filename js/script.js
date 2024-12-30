@@ -24,6 +24,18 @@ function calculateKaprekar() {
     steps = 0;
     updateStepsDisplay();
 
+    if (num.length === 1 && num === '7') {
+        // Redirect to YouTube video
+        window.location.href = "https://www.youtube.com/watch?v=JAIVxKw36Rg&t=87s";
+        return;
+    } elif (num.length === 4 && num === '6174') {
+        // Redirect to YouTube video
+        window.location.href = "https://www.youtube.com/watch?v=d8TRcZklX_Q";
+        return;
+    }
+
+
+
     // Validate the input
     if (num.length !== 4 || isNaN(num)) {
         resultDiv.innerHTML = '<p style="color: red;">Please enter a valid 4-digit number!</p>'; 
