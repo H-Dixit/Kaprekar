@@ -28,7 +28,7 @@ function calculateKaprekar() {
         // Redirect to YouTube video
         window.location.href = "https://www.youtube.com/watch?v=JAIVxKw36Rg&t=87s";
         return;
-    } elif (num.length === 4 && num === '6174') {
+    } else if (num.length === 4 && num === '6174') {
         // Redirect to YouTube video
         window.location.href = "https://www.youtube.com/watch?v=d8TRcZklX_Q";
         return;
