@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaprekar's Constant Loop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/loops-styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kaprekar's Constant Loop Calculator</h1>
+
+        <div class="nav-buttons">
+            <a href="index.html" class="nav-btn">Go to Calculator Home</a>
+        </div>
+
+        <div class="control-buttons">
+            <button onclick="startProcess()" id="startBtn">Start</button>
+            <button onclick="stopProcess()" id="stopBtn">Start</button>
+            <button onclick="resetProcess()" id="resetBtn">Start</button>
+        </div>
+
+        <div id="current-status">
+            <div>Current Number: <span id="current-number">-</span></div>
+            <div>Progress: <span id="progress">0</span>%</div>
+        </div>
+
+        <div id="results-container">
+            <table id="results-table">
+                <thead>
+                    <tr>
+                        <th>Number</th>
+                        <th>Steps to 6174</th>
+                    </tr>
+                </thead>
+                <tbody id="results-body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="loops.js"></script>
+</body>
+</html>
