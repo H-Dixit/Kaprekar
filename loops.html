@@ -17,13 +17,16 @@
 
         <div class="control-buttons">
             <button onclick="startProcess()" id="startBtn">Start</button>
-            <button onclick="stopProcess()" id="stopBtn">Start</button>
-            <button onclick="resetProcess()" id="resetBtn">Start</button>
+            <button onclick="stopProcess()" id="stopBtn">Stop</button>
+            <button onclick="resetProcess()" id="resetBtn">Reset</button>
+        </div>
+
+        <div id="loading-indicator" style="display: none;">
+            Processing... Please wait
         </div>
 
         <div id="current-status">
             <div>Current Number: <span id="current-number">-</span></div>
-            <div>Progress: <span id="progress">0</span>%</div>
         </div>
 
         <div id="results-container">
@@ -39,6 +42,6 @@
             </table>
         </div>
     </div>
-    <script src="loops.js"></script>
+    <script src="js/loops.js"></script>
 </body>
 </html>
