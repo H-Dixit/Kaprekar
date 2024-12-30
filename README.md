@@ -1,0 +1,1 @@
+Kaprekar constant calculator
