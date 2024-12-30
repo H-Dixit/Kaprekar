@@ -13,7 +13,10 @@
             <div class="input-section">
                 <input type="number" id="numberInput" placeholder="Enter a 4-digit number" />
                 <button onclick="calculateKaprekar()">Calculate</button>
+                <button onclick="resetCalculator()" class="reset-btn">Reset</button>
             </div>
+
+            <div id="steps-display">Steps Count: <span id="steps-count">0</span></div>
 
             <div id="result"></div>
         </div>

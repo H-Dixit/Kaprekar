@@ -44,6 +44,25 @@ button:hover {
     background-color: #45a049;
 }
 
+.reset-btn {
+    background-color: #f44336;
+}
+.reset-btn:hover {
+    background-color: #da190b;
+}
+
+.steps-display {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+#result {
+    margin-top: 20px;
+}
+
 .step {
     margin: 10px 0;
     padding: 10px;
